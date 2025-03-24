@@ -7,7 +7,7 @@ const router = require('./api/router/userRouter')
 
 const app = express()
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 10000
 const MONGO_URI = process.env.MONGO_URI
 const CLIENT_URL = process.env.CLIENT_URL
 
