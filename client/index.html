@@ -8,21 +8,28 @@
 	</head>
 	<body>
 		<div class="container">
-			<div class="c1">
-				<button class="c1-button">Получить всех</button>
-				<div class="c1-container"></div>
+			<div class="b1">
+				<h1>Добавление товара</h1>
+				<div class="line"></div>
+				<input type="text" placeholder="укажите название..." class="nameI">
+				<input type="text" placeholder="укажите стоимость..." class="priceI">
+				<div class="bl">
+					<p class="action">товар на акции? (-25%)</p> <div class="check"></div>
+				</div>
+
+				<button class="btnAdd">
+					Добавить
+				</button>
 			</div>
 			<div class="b2">
-				<input type="text" id="inputUserId" placeholder="id" />
-				<button class="c2-button">Получить по id</button>
-				<div class="c2-container"></div>
+				<h1>Акционные товары</h1>
+				<div class="line"></div>
+				<ul class="ul2"></ul>
 			</div>
 			<div class="b3">
-				<input id="id" type="text" placeholder="id" />
-				<input id="name" type="text" placeholder="name" />
-				<input id="age" type="text" placeholder="age" />
-				<button class="c3-button">Добавить в БД</button>
-				<div class="c3-container"></div>
+				<h1>Все товары</h1>
+				<div class="line"></div>
+				<ul class="ul1"></ul>
 			</div>
 		</div>
 		<script type="module" src="script.js"></script>

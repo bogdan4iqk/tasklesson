@@ -2,9 +2,8 @@ const mongoose = require('mongoose')
 
 const userSchema = new mongoose.Schema({
 	name: { type: String, required: true },
-	sname: { type: String, required: true },
-	city: { type: String, required: true},
-	age: { type: String }
+	sname: { type: Number, required: true},
+	onSale: {type:Boolean}
 })
 
 const UserModel = mongoose.model('users', userSchema)

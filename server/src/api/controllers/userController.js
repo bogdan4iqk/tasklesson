@@ -36,12 +36,12 @@ class UserController {
 	}
 
 	static async addUser(req, res) {
-		const { name, age, isVerified } = req.body
+		const { name, sname, onSale } = req.body
 		try {
 			const newUser = new UserModel({
 				name,
-				age,
-				isVerified
+				sname,
+				onSale
 			})
 
 			const savedUser = await newUser.save()
